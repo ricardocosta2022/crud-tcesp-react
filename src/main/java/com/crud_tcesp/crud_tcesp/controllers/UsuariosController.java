@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:5173") // ou "*", se estiver testando 5174 ONDE RODA MEU FRONTEND COM REACTJS
+// ou "*", se estiver testando 5174 ONDE RODA MEU FRONTEND COM REACTJS
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping(value = "api/usuarios")
 public class UsuariosController {

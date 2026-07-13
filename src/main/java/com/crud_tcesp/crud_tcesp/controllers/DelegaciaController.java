@@ -23,7 +23,7 @@ public class DelegaciaController implements DelegaciaControllerDoc {
         this.service = service;
     }
 
-    @GetMapping("/listarCodEDescricao")
+    @GetMapping("/listarCodEDescricaoUnidadeProtocoladora")
     public ResponseEntity<List<DelegaciaDTO>> listarCodEDescricao(){
         return ResponseEntity.ok(service.listarCodEDescricao());
     }
